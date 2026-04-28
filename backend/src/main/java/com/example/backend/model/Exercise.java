@@ -7,10 +7,10 @@ public class Exercise {
     private int reps;
     private Integer weight; // может быть null
 
-    // Пустой конструктор (нужен для JSON)
+
     public Exercise() {}
 
-    // Конструктор со всеми полями
+
     public Exercise(Long id, String name, int sets, int reps, Integer weight) {
         this.id = id;
         this.name = name;
